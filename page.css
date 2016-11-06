@@ -1,6 +1,10 @@
-.photo img{
-        width: 100px;
-        height: 100px;
+body{
+  background: url(1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  .photo img{
+        width: 50%;
 }
     /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
     .row.content {height: 550px}
@@ -40,8 +44,21 @@
   position:relative;
   top:1px;
 }
+.f
+{
+  font-family: 'Open Sans Condensed', sans-serif;
+}
 .center{
   text-align: center;
+}
+.big{
+    font-size: 300%;
+}
+#pad{
+  padding-left: 10px;
+}
+h5{
+  color: #c51414;
 }
     #map {
         height: 100%;
